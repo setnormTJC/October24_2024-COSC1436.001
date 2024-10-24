@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October24_2024-COSC1436.001", "October24_2024-COSC1436.001\October24_2024-COSC1436.001.vcxproj", "{B914803D-D892-4C8D-92E6-FAA0415C135D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Writing some of OUR OWN string functions", "Writing some of OUR OWN string functions\Writing some of OUR OWN string functions.vcxproj", "{DACC544B-A9F1-4B28-898E-1E6D5841E46A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reading a text file and printing the first letter in each word", "Reading a text file and printing the first letter in each word\Reading a text file and printing the first letter in each word.vcxproj", "{C89DF804-657E-41C9-BEF9-3127570FD38A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demoing some standard library string functions", "Demoing some standard library string functions\Demoing some standard library string functions.vcxproj", "{F1740F0F-BEF6-4792-9695-CF1A0690CD72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B914803D-D892-4C8D-92E6-FAA0415C135D}.Debug|x64.ActiveCfg = Debug|x64
+		{B914803D-D892-4C8D-92E6-FAA0415C135D}.Debug|x64.Build.0 = Debug|x64
+		{B914803D-D892-4C8D-92E6-FAA0415C135D}.Debug|x86.ActiveCfg = Debug|Win32
+		{B914803D-D892-4C8D-92E6-FAA0415C135D}.Debug|x86.Build.0 = Debug|Win32
+		{B914803D-D892-4C8D-92E6-FAA0415C135D}.Release|x64.ActiveCfg = Release|x64
+		{B914803D-D892-4C8D-92E6-FAA0415C135D}.Release|x64.Build.0 = Release|x64
+		{B914803D-D892-4C8D-92E6-FAA0415C135D}.Release|x86.ActiveCfg = Release|Win32
+		{B914803D-D892-4C8D-92E6-FAA0415C135D}.Release|x86.Build.0 = Release|Win32
+		{DACC544B-A9F1-4B28-898E-1E6D5841E46A}.Debug|x64.ActiveCfg = Debug|x64
+		{DACC544B-A9F1-4B28-898E-1E6D5841E46A}.Debug|x64.Build.0 = Debug|x64
+		{DACC544B-A9F1-4B28-898E-1E6D5841E46A}.Debug|x86.ActiveCfg = Debug|Win32
+		{DACC544B-A9F1-4B28-898E-1E6D5841E46A}.Debug|x86.Build.0 = Debug|Win32
+		{DACC544B-A9F1-4B28-898E-1E6D5841E46A}.Release|x64.ActiveCfg = Release|x64
+		{DACC544B-A9F1-4B28-898E-1E6D5841E46A}.Release|x64.Build.0 = Release|x64
+		{DACC544B-A9F1-4B28-898E-1E6D5841E46A}.Release|x86.ActiveCfg = Release|Win32
+		{DACC544B-A9F1-4B28-898E-1E6D5841E46A}.Release|x86.Build.0 = Release|Win32
+		{C89DF804-657E-41C9-BEF9-3127570FD38A}.Debug|x64.ActiveCfg = Debug|x64
+		{C89DF804-657E-41C9-BEF9-3127570FD38A}.Debug|x64.Build.0 = Debug|x64
+		{C89DF804-657E-41C9-BEF9-3127570FD38A}.Debug|x86.ActiveCfg = Debug|Win32
+		{C89DF804-657E-41C9-BEF9-3127570FD38A}.Debug|x86.Build.0 = Debug|Win32
+		{C89DF804-657E-41C9-BEF9-3127570FD38A}.Release|x64.ActiveCfg = Release|x64
+		{C89DF804-657E-41C9-BEF9-3127570FD38A}.Release|x64.Build.0 = Release|x64
+		{C89DF804-657E-41C9-BEF9-3127570FD38A}.Release|x86.ActiveCfg = Release|Win32
+		{C89DF804-657E-41C9-BEF9-3127570FD38A}.Release|x86.Build.0 = Release|Win32
+		{F1740F0F-BEF6-4792-9695-CF1A0690CD72}.Debug|x64.ActiveCfg = Debug|x64
+		{F1740F0F-BEF6-4792-9695-CF1A0690CD72}.Debug|x64.Build.0 = Debug|x64
+		{F1740F0F-BEF6-4792-9695-CF1A0690CD72}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1740F0F-BEF6-4792-9695-CF1A0690CD72}.Debug|x86.Build.0 = Debug|Win32
+		{F1740F0F-BEF6-4792-9695-CF1A0690CD72}.Release|x64.ActiveCfg = Release|x64
+		{F1740F0F-BEF6-4792-9695-CF1A0690CD72}.Release|x64.Build.0 = Release|x64
+		{F1740F0F-BEF6-4792-9695-CF1A0690CD72}.Release|x86.ActiveCfg = Release|Win32
+		{F1740F0F-BEF6-4792-9695-CF1A0690CD72}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {881954B0-3745-4525-9589-9FDE96844DEA}
+	EndGlobalSection
+EndGlobal
