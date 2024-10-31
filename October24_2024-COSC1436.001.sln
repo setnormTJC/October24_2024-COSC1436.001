@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October29-part2", "October2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demoing replace function", "Demoing replace function\Demoing replace function.vcxproj", "{BF548ED9-4CB3-40E3-8D48-C32FDBACEE97}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Playing with anagrams", "Playing with anagrams\Playing with anagrams.vcxproj", "{E22B3EDE-FD40-4F2A-958E-AF3976518DA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{BF548ED9-4CB3-40E3-8D48-C32FDBACEE97}.Release|x64.Build.0 = Release|x64
 		{BF548ED9-4CB3-40E3-8D48-C32FDBACEE97}.Release|x86.ActiveCfg = Release|Win32
 		{BF548ED9-4CB3-40E3-8D48-C32FDBACEE97}.Release|x86.Build.0 = Release|Win32
+		{E22B3EDE-FD40-4F2A-958E-AF3976518DA2}.Debug|x64.ActiveCfg = Debug|x64
+		{E22B3EDE-FD40-4F2A-958E-AF3976518DA2}.Debug|x64.Build.0 = Debug|x64
+		{E22B3EDE-FD40-4F2A-958E-AF3976518DA2}.Debug|x86.ActiveCfg = Debug|Win32
+		{E22B3EDE-FD40-4F2A-958E-AF3976518DA2}.Debug|x86.Build.0 = Debug|Win32
+		{E22B3EDE-FD40-4F2A-958E-AF3976518DA2}.Release|x64.ActiveCfg = Release|x64
+		{E22B3EDE-FD40-4F2A-958E-AF3976518DA2}.Release|x64.Build.0 = Release|x64
+		{E22B3EDE-FD40-4F2A-958E-AF3976518DA2}.Release|x86.ActiveCfg = Release|Win32
+		{E22B3EDE-FD40-4F2A-958E-AF3976518DA2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
