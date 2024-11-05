@@ -5,7 +5,7 @@
 #include<fstream> 
 #include <string>
 
-#include<algorithm>
+#include<algorithm> //needed for std::sort
 
 using std::cout; 
 using std::string; 
@@ -17,11 +17,14 @@ int main()
 	string inputWord; 
 	std::cin >> inputWord;  //ex:coronavirus 
 
+
 	//string anAnagramOfInputWord = "carnivorous"; 
 
 	//cout << "Sorted version of input string " << inputWord << "is: ";
 	//std::sort(inputWord.begin(), inputWord.end());
 	//cout << inputWord << "\n";
+
+	//system("pause"); 
 
 	//cout << "Sorted version of anagram " << anAnagramOfInputWord << "is : ";
 	//std::sort(anAnagramOfInputWord.begin(), anAnagramOfInputWord.end()); 
@@ -43,7 +46,7 @@ int main()
 	while (!dictionaryFile.eof())
 	{
 		string currentWord; 
-		getline(dictionaryFile, currentWord);
+		getline(dictionaryFile, currentWord); //requires <string> 
 
 		string copyOfCurrentWord = currentWord; 
 
@@ -51,7 +54,7 @@ int main()
 
 		if (inputWord == currentWord)
 		{
-			cout << 
+			cout << copyOfCurrentWord << "\t" << currentWord << "\n";
 		}
 		//cout << currentWord << "\n";
 	}
